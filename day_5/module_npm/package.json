@@ -1,0 +1,14 @@
+{
+  "name": "belajar-module",
+  "version": "1.0.0",
+  "description": "sedang belajar module di nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kurniawan Agni",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

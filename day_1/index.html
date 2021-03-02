@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurniawan</title>
+</head>
+<body>
+    
+</body>
+
+<label>Choose your favourite football club:
+    <select class="football-club" name="football-club">
+      <option value="">Select One …</option>
+      <option value="ManCity">ManCity</option>
+      <option value="ManUnited">ManUnited</option>
+      <option value="Liverpool">Liverpool</option>
+    </select>
+  </label>
+  
+  <div class="result"></div>
+
+
+<button id='button1'>Click Me2</button>
+<button id='button2'>Click Me!</button>
+<button id='button3'>Football Club</button>
+
+<input type="text" id="input1" />
+
+<script>
+    function onClick() {
+            // console.log('button ini telah di klik')//
+            window.alert('ini jalan dari fungsi on click 1')
+    }
+
+    function onClick2() {
+            window.alert('ini jalan dari fungsi on click 2')
+    }
+
+    function Input() {
+        console.log('input digunakan')
+    }
+
+    document.querySelector('#button2').addEventListener('mouseleave', onClick2)
+
+
+</script>
+</html>
